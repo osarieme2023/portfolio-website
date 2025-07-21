@@ -1,0 +1,26 @@
+# Lumen / Laravel specific
+/vendor/
+/.env
+.phpunit.result.cache
+/storage/*.key
+/storage/*.log
+bootstrap/cache/*
+
+# Node.js specific
+/node_modules/
+
+# Sass compiled CSS
+/public/css/*.css
+/public/css/*.css.map
+
+# Mac system files
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: compiled JS if using tools like Vite/Webpack later
+/public/js/*.js
+/public/js/*.js.map
