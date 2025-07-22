@@ -17,7 +17,7 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/project', 'ProjectController@index');
+$router->get('/projects', 'ProjectController@index');
 $router->post('/contact', 'ContactController@submit');
 
 
