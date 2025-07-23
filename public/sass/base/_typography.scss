@@ -23,3 +23,13 @@ p {
     font-size: $font-size-base;
     margin-bottom: $spacing-md;
 }
+
+.heading-text {
+    h2 {
+      margin-bottom: 24px;
+    }
+
+    p {
+      font-size: 2.7rem;
+    }
+  }

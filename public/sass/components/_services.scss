@@ -1,0 +1,16 @@
+@use '../abstracts' as *;
+
+#service {
+  margin-top: 72px;
+
+  .service-section {
+    .video {
+      margin-top: 24px;
+      height: 250px;
+      width: 100%;
+      background-color: red;
+      
+    }
+  }
+
+}
